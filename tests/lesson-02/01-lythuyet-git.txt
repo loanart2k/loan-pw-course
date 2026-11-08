@@ -1,0 +1,4 @@
+- Git init: Khởi tạo git ở local
+- Git add < file name>: Đưa <file name> vào staging area để chuẩn bị đưa lên Repository
+- Git add . : Đưa tất cả các file New, Modified vào vùng Staging area
+- Git commit -m "message": Thao tác để lưu lại 1 version kèm message để sau này có thể check lại các phiên bản code trên Repository

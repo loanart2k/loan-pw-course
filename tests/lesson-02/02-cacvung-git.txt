@@ -1,0 +1,38 @@
+a/ Tạo 3 file: file1, file2, file3
+- Local: file1, file2, file3
+- Staging:
+- Repository:
+
+b/ Chạy lệnh git init
+- Local: file1, file2, file3
+- Staging:
+- Repository:
+
+c/ Chạy lệnh git commit -m"init project"
+- Local: file1, file2, file3
+- Staging:
+
+Chưa remote đến origin nên không có thay đổi
+c/ Chạy lệnh git commit -m"init project"
+- Local:
+- Working directory: file1, file2, file3
+- Staging:
+- Repository:
+
+d/ Chạy lệnh git add file1
+- Local:
+- Working directory: file1, file2, file3
+- Staging:
+- Repository:
+
+e/ Chạy lệnh git commit -m"add file1"
+- Local:
+- Working directory: file1, file2, file3
+- Staging:
+- Repository:
+
+f/ Chạy lệnh git commit -m"add file"
+- Local:
+- Working directory: file1, file2, file3
+- Staging:
+- Repository:
