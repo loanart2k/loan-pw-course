@@ -1,0 +1,33 @@
+Create folder "demo"
+
+a: git init
+- Local: 
+- Working directory: demo
+- Staging: 
+- Repository:
+
+b: create file: 
+- Local: 
+- Working directory: demo, file1.txt, file2.txt, oops/file3.txt
+- Staging: 
+- Repository: 
+
+c: Create file: .gitignore and add 2 lines: 
+file1.txt
+oops
+- Local: file1.txt, oops/file3.txt
+- Working directory: demo, file2.txt, file3.txt
+- Staging: 
+- Repository: 
+
+d: git add .
+- Local: file1.txt, oops/file3.txt
+- Working directory:
+- Staging: demo, file2.txt, file3.txt
+- Repository: 
+
+e: git commit -m"init project"
+- Local: file1.txt, oops/file3.txt
+- Working directory:
+- Staging: 
+- Repository: demo, file2.txt, file3.txt

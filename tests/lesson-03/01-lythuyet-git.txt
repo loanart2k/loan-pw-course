@@ -1,0 +1,4 @@
+git commit --amend: to open the edit mode of the latest commit
+git commit --amend -m"message": to update message for latest commit directly
+git restore --staged <file>: bring the specific file from staging (git add) to working directory
+git reset HEAD~1: remove the latest commit

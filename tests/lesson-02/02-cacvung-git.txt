@@ -12,8 +12,8 @@ c/ Chạy lệnh git commit -m"init project"
 - Local: file1, file2, file3
 - Staging:
 
-Chưa remote đến origin nên không có thay đổi
 c/ Chạy lệnh git commit -m"init project"
+Chưa remote đến origin nên không có thay đổi
 - Local:
 - Working directory: file1, file2, file3
 - Staging:
@@ -21,18 +21,18 @@ c/ Chạy lệnh git commit -m"init project"
 
 d/ Chạy lệnh git add file1
 - Local:
-- Working directory: file1, file2, file3
-- Staging:
+- Working directory: file2, file3
+- Staging: file1
 - Repository:
 
 e/ Chạy lệnh git commit -m"add file1"
 - Local:
-- Working directory: file1, file2, file3
-- Staging:
-- Repository:
+- Working directory: file2, file3
+- Staging: 
+- Repository: file1
 
 f/ Chạy lệnh git commit -m"add file"
 - Local:
-- Working directory: file1, file2, file3
-- Staging:
-- Repository:
+- Working directory: file2, file3
+- Staging: 
+- Repository: file1
