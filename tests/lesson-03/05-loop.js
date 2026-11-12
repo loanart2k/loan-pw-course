@@ -46,7 +46,7 @@ let incomeByMonth = [
 ];
 let totalIncome = 0;
 //calculate totla income
-for (i=0; i<incomeByMonth.length; i++) {
+for (let i=0; i<incomeByMonth.length; i++) {
     totalIncome += incomeByMonth[i].total;
 }
 console.log(`Total income: ${totalIncome}`);

@@ -44,3 +44,17 @@ function calculateInterest(principal, rate, years) {
     return total;
 }
 console.log(calculateInterest(1000, 5, 2));
+
+//2. find minimum number with 3 params
+function findMin(a, b, c){
+    let min = a;
+    if (b < min){
+        min = b;  
+    } 
+    if (c < min){
+        min = c;
+    } 
+    return min;
+}
+console.log(findMin(5, 4, 3));
+console.log(findMin(2, 7, 1));
