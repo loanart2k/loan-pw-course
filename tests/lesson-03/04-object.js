@@ -32,7 +32,7 @@ const settings = {
     volume: 10,
     brightness: 70
 }
-volume = 20;
+settings.volume = 20;
 console.log(settings.volume);           
 
 //5. Add new key 
